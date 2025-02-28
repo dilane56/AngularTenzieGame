@@ -1,0 +1,76 @@
+/* Code css du parent */
+.AppContent{
+  display:  flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin: auto;
+  max-height: 80vh;
+  height: 100%;
+  border: 2px solid black;
+  background-color: whitesmoke;
+  font-family: 'Times New Roman', Times, serif;
+  border-radius: 20px;
+}
+/* code css des elements enfants */
+.AppContent__title{
+  font-size: 3.2em;
+  margin-bottom: 0;
+}
+.AppContent__text{
+  text-align: center;
+  font-size: 1.6em;
+  margin-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 20;
+}
+.AppContent__button{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  width: 80%;
+  margin-bottom: 20px;
+  height: 100%;
+
+}
+.AppContent__button button{
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1.6em;
+  border: none;
+  box-shadow: 1px 2px 1px;
+
+}
+.active{
+  background-color: green;
+}
+
+.AppContent__numberofRoll{
+  font-size: 1.6em;
+}
+
+.AppContent__RollButton{
+  min-height: 50px;
+  width: 100px;
+  border: none;
+  border-radius: 6px;
+  background-color: #5035FF;
+  color: white;
+  cursor: pointer;
+  font-size: 1.2em;
+  box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.18);
+}
+
+.AppContent__higthscore{
+  text-align: right;
+  width: 100%;
+  font-size: 1.6em;
+  margin-right: 100px;
+
+}
+
+
